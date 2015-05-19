@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/huya-fed/page.git",
+    "version": "v1.0.0",
+    "name": "page",
+    "main": "page.js"
+}
