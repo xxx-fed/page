@@ -13,8 +13,12 @@
 
 
 ----------
+	在sass文件中引用样式
+	@import "components/page/page.css";
 
 
+	在js文件中引用模块
+	var page = require('page');
 
     new page({
       "id_dom":"pagination",
