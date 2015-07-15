@@ -154,7 +154,7 @@
 
     }
 
-    if (typeof dwfis.define === 'function') {
+    if (typeof dwfis !== "undefined" && typeof dwfis.define === "function") {
         module.exports = page;
     } else {
         (function(){ return this || (0,eval)('this'); }()).page = page;
